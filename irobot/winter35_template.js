@@ -11,7 +11,7 @@ var pageName = pageName.substring(n + 1);
 pageName = pageName.replace(".js", ".html");
 
 //if port not given use this as default
-var port = (process.argv[2] ? Number(process.argv[2]) : 2025);
+var port = (process.argv[2] ? Number(process.argv[2]) : 5020);
 app.listen(port);
 console.log("listening on port ", port);
 
